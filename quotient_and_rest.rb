@@ -3,6 +3,6 @@ def quotient_and_rest(x, y)
   result = []
   result << "#{x / y} "
   result << "#{x % y} "
-   puts result
+  result
 end
-quotient_and_rest(10, 4)
+puts quotient_and_rest(10, 4)
